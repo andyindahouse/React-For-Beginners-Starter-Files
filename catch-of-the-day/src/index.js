@@ -7,7 +7,6 @@ import App from './components/App';
 import StorePicker from './components/StorePicker';
 import NotFound from './components/NotFound';
 
-
 const Root = () => {
     return (
         <BrowserRouter>
@@ -19,8 +18,6 @@ const Root = () => {
         </BrowserRouter>
     )
 }
-
-
 
 render(<Root/>, document.querySelector('#main'));
 
